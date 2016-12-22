@@ -1,0 +1,25 @@
+body {
+  font-size: 1.35em;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #AEFFCF;
+  font-family: 'Reem Kufi', sans-serif;
+}
+h2 {
+  text-align: center;
+}
+.container {
+  background: #fff;
+  border-radius: .5em;
+  margin: 10vmin;
+  padding: 1vmin;
+  height: 80vh;
+
+}
+.counter {
+  height: 40vh;
+  border: 1px solid #5A83D3;
+  border-radius: .5em;
+  flex-grow: 1;
+  text-align: center;
+}
