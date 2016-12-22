@@ -6,8 +6,10 @@ import { createStore } from 'redux';
 import App from './components/app';
 import reducers from './reducers';
 
-
+//let store = createStore(reducers)
 
 ReactDOM.render(
+
     <App />
+
   , document.querySelector('.container'));

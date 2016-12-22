@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
 
 export default class EnglishCounter extends Component{
   render(){
@@ -12,3 +14,13 @@ export default class EnglishCounter extends Component{
     )
   }
 }
+
+// const mapStateToProps = state => {
+//   return {
+    
+//   };
+// } 
+
+// const mapDispatchToProps = dispatch => bindActionCreators(, dispatch);
+
+// export default connect()();
