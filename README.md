@@ -1,5 +1,7 @@
 # ReduxCounter
 
+This repo is for an Intro to Redux Workshop.
+
 ###Getting Started###
 
 ####Want to see the answers?#####
