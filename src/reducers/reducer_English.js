@@ -1,4 +1,4 @@
-import { INCREASE_ENGLISH_COUNT, DECREASE_ENGLISH_COUNT } from '../actions/index';
+import { INCREASE_ENGLISH_COUNT } from '../actions/index';
 
 
 export default function EnglishCurrentReducer(state=0, action) {
@@ -6,8 +6,6 @@ export default function EnglishCurrentReducer(state=0, action) {
   switch(action.type){
     case INCREASE_ENGLISH_COUNT:
       return current + 1;
-    case DECREASE_ENGLISH_COUNT:
-      return current - 1;
     default:
       return state;
   }
