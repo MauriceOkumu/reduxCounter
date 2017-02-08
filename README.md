@@ -5,7 +5,7 @@ This repo is for an Intro to Redux Workshop.
 ###Getting Started###
 
 ####Want to see the answers?#####
-Clone this repo, install dependencies, then start the gulp process with the following:
+Clone this repo, install dependencies, then start the server with the following:
 
 ```
 	> git clone https://github.com/rykuehn/reduxCounter.git
@@ -15,7 +15,7 @@ Clone this repo, install dependencies, then start the gulp process with the foll
 ```
 
 ####Step-By-Step?#####
-Clone this repo, install dependencies, then start the gulp process with the following:
+Clone this repo, install dependencies, then start the server with the following:
 
 ```
   > git clone https://github.com/rykuehn/reduxCounter.git

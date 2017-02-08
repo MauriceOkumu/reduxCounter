@@ -7,9 +7,9 @@ class SpanishCounter extends Component{
   render(){
     return(
       <div className="counter"> 
-        <h2> Spanish Counter </h2>
-        <div onClick={() => this.props.increaseSpanish()}> Increase </div>
-        <p onClick={() => this.props.decreaseSpanish()}> Decrease </p>
+        <h2> Contador en espanol </h2>
+        <div onClick={() => this.props.increaseSpanish()}> Incrementare </div>
+        <p onClick={() => this.props.decreaseSpanish()}> Reducir </p>
         <p>{this.props.Spanishcurrent}</p>
       </div>
     )
