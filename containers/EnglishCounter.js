@@ -22,6 +22,6 @@ const mapStateToProps = state => {
   };
 } 
 
-const mapDispatchToProps = dispatch => bindActionCreators({ increaseEnglish, decreaseEnglish, random }, dispatch);
+const mapDispatchToProps = dispatch => bindActionCreators({ increaseEnglish, decreaseEnglish }, dispatch);
 
 export default connect(mapStateToProps, mapDispatchToProps)(EnglishCounter);
