@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
+//import actions
 
 export default class EnglishCounter extends Component{
+
   render(){
     return(
       <div className="counter"> 
@@ -17,10 +19,12 @@ export default class EnglishCounter extends Component{
 
 // const mapStateToProps = state => {
 //   return {
-    
+
 //   };
 // } 
 
-// const mapDispatchToProps = dispatch => bindActionCreators(, dispatch);
+// const mapDispatchToProps = dispatch => {
+//   return bindActionCreators( {}, dispatch);
+// }
 
-// export default connect()();
+//export default connect()();
